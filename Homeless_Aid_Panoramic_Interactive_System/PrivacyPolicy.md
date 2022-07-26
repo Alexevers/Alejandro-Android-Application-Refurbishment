@@ -34,7 +34,7 @@ This privacy notice for Liquid Galaxy Lab ("**Company**," "**we**," "**us**," or
 
   
 
-**Do we process any sensitive personal information?** We do not process sensitive personal information.
+**Do we process any sensitive personal information?** We process sensitive personal information.
 
   
 
