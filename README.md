@@ -1,5 +1,6 @@
 # Alejandro-Android-Application-Refurbishment
-This is a Google Summer of Code 2022 project. Liquid Galaxy LAB has been participating in Google Summer of Code for 12 years,
+This is a Google Summer of Code 2022 project. 
+Liquid Galaxy LAB has been participating in Google Summer of Code for 12 years,
 and during all these years, there have been many contributors who have developed applications to be used in a Liquid Galaxy.
 However, some of these applications haven’t been released to the Play Store or App Gallery.
 The project's purpose is to updated and upload these apps.
@@ -11,4 +12,4 @@ Liquid Galaxy as a meaningful presentation tool has a lot of information that ca
 
 More information about: https://github.com/LiquidGalaxyLAB/image-satellite-visualizer
 
-ADASDASDADADASDASDA
+
