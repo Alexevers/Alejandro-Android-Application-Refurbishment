@@ -50,7 +50,7 @@ With this application, it is intended to achieve the following objectives:
 
 ### Prerequisites
 - Android phone or Tablet with 6.0 OS Version or greater
-- Liquid Galaxy (To be installed, go to following github repository:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy))
+- Liquid Galaxy(__Optional__). To be installed, go to following github repository:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy)
 
 ### Extra information
 - Language code:
@@ -70,9 +70,26 @@ The Reforestation Assistant & Simulator idea is to create an app to help on refo
 
 ### Prerequisites
 - Android phone or tablet
-- Liquid Galaxy device(optional)
+- Liquid Galaxy device(__Optional__)
 
 You can find Google Play Version here: [RAS](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/RAS)
 
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/reforestation-assistant-simulator
 
+## Orbit Satellite Visualizer
+<div align="left">
+    <img src="./Images/Orbit logo.png"  alt="css-in-readme">
+</div>
+This project aims to use the Liquid Galaxy platform to display space related concepts. You can live display single satellites by introducing its Satellite Catalog Number (SATCAT or SCN) and fixed constellations such as Iridium and Starlink. Furthermore, a database is included with satellite orbits, a sample rocket trajectory and the most important spaceports of the world.
+
+### Prerequisites
+- 10 inches tablet with an Android equal or superior to version 8.0 (Oreo). 
+- Liquid Galaxy (To be installed, go to following github repository:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy))
+
+### Extra information
+- Language code: Java
+- IDE used: Android Studio
+
+You can find Google Play Version here: [Orbit Satellite Visualizer](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/Orbit-Satellite-Visualizer)
+
+More information about original project and deployer contact: https://github.com/moreaf/OrbitSatelliteVisualizer
