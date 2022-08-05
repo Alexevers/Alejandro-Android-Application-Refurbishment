@@ -1,0 +1,2 @@
+rootProject.name='GSoC2020_HomelessAidPanoramicInteractiveSystem'
+include ':app'
