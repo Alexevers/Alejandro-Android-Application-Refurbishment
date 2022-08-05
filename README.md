@@ -1,12 +1,42 @@
-# Alejandro-Android-Application-Refurbishment
-This is a Google Summer of Code 2022 project. Liquid Galaxy LAB has been participating in Google Summer of Code for 12 years,
+<div align="center">
+    <img src="./Images/logo3.png" width="200" height="200" alt="css-in-readme">
+    <img src="./Images/LGlogo1.png" width="243" height="175" alt="css-in-readme">
+</div>
+
+# Android Application Refurbishment
+This is a Google Summer of Code 2022 project. 
+
+Liquid Galaxy LAB has been participating in Google Summer of Code for 12 years,
 and during all these years, there have been many contributors who have developed applications to be used in a Liquid Galaxy.
 However, some of these applications haven’t been released to the Play Store or App Gallery.
-The project's purpose is to updated and upload these apps.
+The project's purpose is to update and upload these apps.
 
-Here there are app sections with info:
+Here there are app section of this branch
 
-# Image-Satellite-Visualizer
-Liquid Galaxy as a meaningful presentation tool has a lot of information that can be displayed for diverse purposes like an educational tool, or for a monitoring system. With that in mind, the idea of ​​the project is the real time visualization of satellite images that would be attached as layers of google earth, besides being able to have diverse information of the earth being graphically generated as storms, fires, masses of heat and water vapor, a synchronous earth visualization will allow for more complex interactions. From there, the entire application would be controlled through a script responsible for managing calls made to the satellite's external APIs (e.g. NASA API and Copernicus) that responses with the metadata necessary for the kml creation and a tablet application that would give the user control of which layers or information would like to be displayed and responsible for handling the API calls, manipulate KMLs and sending them to Liquid Galaxy through Bash scripts. The application’s front end will be developed with Flutter and the image selected by the user will be generated based on selected options.
+## Homeless Aid Panoramic Interactive System (HAPIS)
+<div align="left">
+    <img src="./Images/logo HAPIS.png" width="356" height="200" alt="css-in-readme">
+</div>
+HAPIS is a social project that has a very clear objective: to give people with resources the opportunity to help other people, in need, who are going through a bad situation and do not have such basic things as food or clothing.
 
-More information about: https://github.com/LiquidGalaxyLAB/image-satellite-visualizer
+With this application, it is intended to achieve the following objectives:
+
+- Reduce severe material deprivation among app users.
+- Provide a new help system for people without resources.
+- Promote the use of espectacular technologies in everyday situations.
+- Making the delivery service for basic goods faster and more effective helps people in need.
+- Foster the relationship between the two main types of people, the poor and the people who can help. In this way, a new way of raising awareness could be found.
+
+### Prerequisites
+- Android phone or Tablet with 6.0 OS Version or greater
+- Liquid Galaxy(__Optional__). To be installed, go to following github repository:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy)
+
+### Extra information
+- Language code:
+- IDE used: Android Studio
+- BBDD: Firebase
+- Google MAPS API
+
+You can find Google Play Version here: [HAPIS](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/HAPIS)
+
+More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/GSoC2020_HomelessAidPanoramicInteractiveSystem
