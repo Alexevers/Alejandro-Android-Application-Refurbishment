@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donor.HomeDonorFragment">
+
+    <SearchView
+        android:id="@+id/donor_search"
+        android:padding="@dimen/padding"
+        android:layout_width="match_parent"
+        android:queryHint="@string/search_hint_donor"
+        android:layout_height="?actionBarSize"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_donor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/donor_top_margin"
+        android:layout_marginBottom="@dimen/donor_bottom_margin"
+        android:scrollbars="vertical"/>
+
+</FrameLayout>

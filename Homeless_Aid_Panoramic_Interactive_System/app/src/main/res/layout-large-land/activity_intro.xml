@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".intro.IntroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/screen_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/intro_view_pager"
+            android:layout_margin="@dimen/margins">
+        </androidx.viewpager.widget.ViewPager>
+
+
+        <Button
+            android:id="@+id/btn_get_started"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginStart="@dimen/start_margin"
+            android:layout_marginEnd="@dimen/end_margin"
+            android:text="@string/get_started_button"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/body"
+            android:visibility="invisible"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/start_margin"
+            android:layout_marginEnd="@dimen/end_margin"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:orientation="horizontal">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginEnd="@dimen/start_margin"
+                app:tabBackground="@drawable/indicator_selector"
+                android:scrollbarSize="@dimen/body"
+                android:layout_weight="1">
+            </com.google.android.material.tabs.TabLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_next"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/start_margin"
+                android:layout_marginBottom="@dimen/bottom_margin"
+                android:backgroundTint="@color/white"
+                android:drawableEnd="@drawable/arrow_next_intro"
+                android:text="@string/next_button"
+                android:textSize="@dimen/body"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

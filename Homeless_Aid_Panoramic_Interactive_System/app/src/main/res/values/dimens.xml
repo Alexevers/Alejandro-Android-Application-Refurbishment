@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Normal margins-->
+
+    <dimen name="top_margin">16dp</dimen>
+    <dimen name="bottom_margin">16dp</dimen>
+    <dimen name="start_margin">16dp</dimen>
+    <dimen name="end_margin">16dp</dimen>
+    <dimen name="margins">16dp</dimen>
+
+    <dimen name="padding">10dp</dimen>
+    <dimen name="login_margin">30dp</dimen>
+
+    <!--    Cards-->
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="elevation">5dp</dimen>
+    <dimen name="cv_margins">8dp</dimen>
+
+    <!--    Text -->
+    <dimen name="title">20sp</dimen>
+    <dimen name="body">14sp</dimen>
+
+    <!--    Images -->
+    <dimen name="check_size">50dp</dimen>
+    <dimen name="payment_icons">40dp</dimen>
+    <dimen name="statistics_image">80dp</dimen>
+    <dimen name="statistics_image_land">120dp</dimen>
+    <dimen name="contact_image">150dp</dimen>
+    <dimen name="contact_image_land">100dp</dimen>
+    <dimen name="donate_icon">150dp</dimen>
+    <dimen name="help_image">200dp</dimen>
+    <dimen name="help_image_land">120dp</dimen>
+    <dimen name="through_vol_fragment">100dp</dimen>
+    <dimen name="profile_image">100dp</dimen>
+    <dimen name="homeless_cv_image">200dp</dimen>
+    <dimen name="intro_image">200dp</dimen>
+    <dimen name="intro_image_layout_width_land">260dp</dimen>
+    <dimen name="intro_image_layout_height_land">160dp</dimen>
+    <dimen name="delivery_notification_width">100dp</dimen>
+    <dimen name="delivery_notification_height">200dp</dimen>
+    <dimen name="homeless_custom_view">100dp</dimen>
+    <dimen name="create_profile_image">150dp</dimen>
+    <dimen name="dashboard_image_cv">90dp</dimen>
+    <dimen name="logos_image">240dp</dimen>
+
+
+    <!--Boxes-->
+    <dimen name="contact_edit_text_box">100dp</dimen>
+    <dimen name="intro_view_pager">400dp</dimen>
+    <dimen name="intro_bottom_margin">100dp</dimen>
+    <dimen name="lite_list_row_map">150dp</dimen>
+    <dimen name="map_fragment">200dp</dimen>
+    <dimen name="needs_edit_text_box">150dp</dimen>
+    <dimen name="profile_edit_text_box">150dp</dimen>
+    <dimen name="map_bubble">100dp</dimen>
+    <dimen name="header">200dp</dimen>
+    <dimen name="terms_fragment">200dp</dimen>
+    <dimen name="signature_pad">100dp</dimen>
+    <dimen name="dashboard_cards">150dp</dimen>
+
+
+    <!--Delivery margins-->
+    <dimen name="delivery_top_margin">60dp</dimen>
+
+    <!--Donor margins-->
+    <dimen name="donor_top_margin">40dp</dimen>
+    <dimen name="donor_bottom_margin">50dp</dimen>
+    <dimen name="progress_image">45dp</dimen>
+
+
+</resources>

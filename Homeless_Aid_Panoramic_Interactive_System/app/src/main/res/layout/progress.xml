@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_marginEnd="@dimen/cv_margins"
+        android:layout_width="@dimen/progress_image"
+        android:layout_height="@dimen/progress_image" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/progress_login"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/loading_msg"
+        android:textSize="@dimen/body"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

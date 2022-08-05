@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:key="phone_volunteer"
+        android:title="@string/config_phone_number_hint"
+        android:summary="@string/config_phone_number_summary"
+        android:selectable="true"
+        android:inputType="numberDecimal"
+        android:digits="0123456789"
+        android:icon="@drawable/phone_drawable"
+        />
+
+</PreferenceScreen>

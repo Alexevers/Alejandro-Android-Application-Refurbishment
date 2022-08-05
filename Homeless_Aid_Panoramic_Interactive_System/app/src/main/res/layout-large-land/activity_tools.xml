@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/margins"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".liquidGalaxy.MainActivityLG">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cleanKmls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margins"
+            android:textSize="@dimen/title"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            app:backgroundTint="@color/dark_green"
+            android:text="@string/clean_kmls"
+            android:textColor="@color/white"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/relaunch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margins"
+            android:layout_weight="1"
+            android:textSize="@dimen/title"
+            android:textStyle="bold"
+            app:backgroundTint="@color/color_first_card"
+            android:text="@string/relaunch_lg"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/reboot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margins"
+            android:textSize="@dimen/title"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            app:backgroundTint="@color/color_second_card"
+            android:text="@string/reboot_lg"
+            android:textColor="@color/white"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/shutdown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margins"
+            android:textSize="@dimen/title"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            app:backgroundTint="#f44336"
+            android:text="@string/shutdown_lg"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+

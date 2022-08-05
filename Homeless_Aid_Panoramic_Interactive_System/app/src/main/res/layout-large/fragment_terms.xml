@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background"
+    tools:context=".volunteer.TermsFragment">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margins">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margins"
+                android:text="@string/fragment_terms_title"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/body" />
+
+            <TextView
+                android:id="@+id/terms_textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/terms_fragment"
+                android:layout_margin="@dimen/margins"
+                android:text="@string/fragment_terms_text"
+                android:layout_gravity="start"
+                android:textColor="@color/grey"
+                android:scrollbars="vertical"
+                android:textSize="@dimen/body" />
+
+            <com.github.gcacace.signaturepad.views.SignaturePad
+                android:id="@+id/signature_pad"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/top_margin"
+                android:layout_height="@dimen/signature_pad"
+                app:penColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/signature_pad_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/body"
+                android:textColor="@android:color/darker_gray"
+                android:layout_gravity="bottom|center"
+                android:text="@string/agreement" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginStart="@dimen/start_margin"
+                android:layout_marginEnd="@dimen/end_margin"
+                android:layout_marginBottom="@dimen/cv_margins" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/clearSignatureButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:textSize="@dimen/body"
+                    android:text="@string/clear_signature_button"
+                    app:iconSize="48dp"
+                    android:textStyle="bold"
+                    app:icon="@drawable/delete_homeless_icon"
+                    app:iconTint="@null"
+                    android:textColor="@color/colorPrimary"
+                    app:strokeColor="@color/red"
+                    android:layout_marginEnd="@dimen/end_margin"
+                    android:layout_marginBottom="@dimen/bottom_margin"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/saveSignatureButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:textSize="@dimen/body"
+                    android:text="@string/save_signature_button"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    app:icon="@drawable/save_img"
+                    app:iconTint="@null"
+                    app:iconSize="48dp"
+                    app:strokeColor="@color/green"
+                    android:layout_marginBottom="@dimen/bottom_margin"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</ScrollView>

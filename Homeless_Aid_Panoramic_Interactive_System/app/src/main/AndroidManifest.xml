@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mihaela.claudia.diosan.gsoc2020_homelessaidpanoramicinteractivesystem">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MEDIA_CONTENT_CONTROL"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+    Linea comentada por Alejandro Illán Marcos
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:configChanges="locale"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/hapis_icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/hapis_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="q">
+        <activity android:name=".liquidGalaxy.AboutActivity"
+            android:label="@string/about_name"/>
+        <activity android:name=".liquidGalaxy.VolunteersActivity" />
+        <activity android:name=".liquidGalaxy.DonorsActivity" />
+        <activity android:name=".liquidGalaxy.HomelessActivity" />
+        <activity android:name=".liquidGalaxy.CityActivity" />
+        <activity android:name=".liquidGalaxy.CitiesActivity" />
+        <activity
+            android:name=".liquidGalaxy.HelpActivity"
+            android:label="@string/lg_help_name" />
+        <activity android:name=".liquidGalaxy.ToolsActivity" />
+        <activity
+            android:name=".liquidGalaxy.SettingsActivity"
+            android:label="Preferences" />
+        <activity android:name=".liquidGalaxy.MainActivityLG" />
+        <activity
+            android:name=".donor.HomeDonor"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".volunteer.CreateHomelessProfile" />
+        <activity
+            android:name=".common.Payment"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".common.YouTubePlayer"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".volunteer.HomeVolunteer"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/user_home_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".register.RegisterUserActivity"
+            android:label="@string/register_user_name" />
+        <activity android:name=".liquidGalaxy.FirstActivityLG" />
+        <activity
+            android:name=".register.RegisterActivity"
+            android:label="@string/register_activity_name" />
+        <activity
+            android:name=".login.ForgotPasswordActivity"
+            android:label="@string/forgot_password_name" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".intro.IntroActivity"
+            android:theme="@style/IntroTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/API_KEY" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

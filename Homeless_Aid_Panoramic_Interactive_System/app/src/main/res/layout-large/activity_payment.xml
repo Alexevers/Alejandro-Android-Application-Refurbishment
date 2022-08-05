@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".common.Payment"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margins"
+        android:backgroundTint="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/start_margin"
+            android:layout_marginEnd="@dimen/end_margin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/payment_icons"
+                    android:layout_height="@dimen/payment_icons"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:contentDescription="@string/content_description"
+                    android:src="@drawable/donate_icon"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/payment_title"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:layout_marginStart="@dimen/start_margin"
+                    android:textColor="@color/quantum_black_100"
+                    android:textSize="@dimen/body"/>
+
+            </LinearLayout>
+
+            <me.abhinay.input.CurrencyEditText
+                android:id="@+id/etInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/currency_hint"
+                android:inputType="number"
+                android:textSize="@dimen/title" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/payment_icons"
+                    android:layout_height="@dimen/payment_icons"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:contentDescription="@string/content_description"
+                    android:src="@drawable/credit_card_img"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/payment_card_credit"
+                    android:layout_marginStart="@dimen/start_margin"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:textColor="@color/quantum_black_100"
+                    android:textSize="@dimen/body"/>
+
+            </LinearLayout>
+
+            <com.braintreepayments.cardform.view.CardForm
+                android:id="@+id/card_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_pay"
+                app:icon="@drawable/donate_left_drawable"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/top_margin"
+                app:iconTint="@null"
+                app:iconSize="24dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:strokeColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_donate_button"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

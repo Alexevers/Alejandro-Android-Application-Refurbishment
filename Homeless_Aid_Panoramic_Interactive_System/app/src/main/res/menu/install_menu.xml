@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/first_time_install"
+        android:title="@string/first_time_install"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/complete_uninstall"
+        android:title="@string/uninstall"
+        app:showAsAction="never" />
+
+</menu>

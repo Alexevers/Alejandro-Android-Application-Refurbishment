@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margins"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/title"
+            android:text="@string/donate_title"
+            android:layout_marginTop="@dimen/top_margin"
+            android:layout_marginBottom="@dimen/bottom_margin"/>
+
+
+        <ImageView
+            android:layout_width="@dimen/donate_icon"
+            android:layout_height="@dimen/donate_icon"
+            android:layout_gravity="center"
+            android:src="@drawable/donate_drawable"
+            android:contentDescription="@string/content_description"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/start_margin"
+                android:layout_marginEnd="@dimen/end_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/body"
+                    android:textAlignment="inherit"
+                    android:text="@string/donate_text"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:layout_marginBottom="@dimen/bottom_margin"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/donate_button"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/credit_card_img"
+                    app:iconSize="24dp"
+                    app:iconTint="@null"
+                    android:text="@string/donate_button"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="@dimen/padding"
+                    android:textSize="@dimen/body"
+                    android:textStyle="bold"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    app:strokeColor="@color/colorPrimary"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:layout_marginBottom="@dimen/bottom_margin" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/body"
+                    android:text="@string/or"
+                    android:layout_marginTop="@dimen/top_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/body"
+                    android:text="@string/donate_video"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:layout_marginBottom="@dimen/bottom_margin"/>
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/view_video_button"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    app:strokeColor="@color/colorPrimary"
+                    app:icon="@drawable/video_play_img"
+                    app:iconSize="24dp"
+                    app:iconTint="@null"
+                    android:text="@string/video_button"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="@dimen/padding"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/body"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:layout_marginBottom="@dimen/bottom_margin" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>

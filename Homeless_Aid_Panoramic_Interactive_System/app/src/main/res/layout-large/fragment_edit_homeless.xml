@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".volunteer.EditHomelessFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margins">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margins">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/end_margin"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/title"
+                    android:text="@string/edit_title"/>
+
+
+                <TextView
+                    android:id="@+id/homeless_username_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:textSize="@dimen/title"
+                    android:layout_marginBottom="@dimen/bottom_margin"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:text="@string/hcv_username"/>
+
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:id="@+id/edit_profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/homeless_cv_image"
+                android:background="@color/light_blue"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/content_description"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/edit_homeless_profile_photo_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="center"
+                app:iconGravity="textStart"
+                android:textSize="@dimen/body"
+                android:text="@string/edit_profile_photo_button"
+                android:textColor="@color/colorPrimary"
+                app:icon="@drawable/add_image"
+                app:iconTint="@null"
+                app:iconSize="24dp"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_margin"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/homeless_edit_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:inputType="phone"
+                    android:textSize="@dimen/body"
+                    android:drawablePadding="@dimen/padding"
+                    android:drawableStart="@drawable/phone_drawable"
+                    android:drawableTint="@color/icons_blue" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_margin"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/homeless_edit_life_history"
+                    android:layout_width="match_parent"
+                    android:drawablePadding="@dimen/padding"
+                    android:layout_height="@dimen/profile_edit_text_box"
+                    android:drawableStart="@drawable/life_history_drawable"
+                    android:drawableTint="@color/icons_blue"
+                    android:gravity="top|start"
+                    android:textSize="@dimen/body"
+                    android:inputType="textMultiLine"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/selected_location_text"
+                android:textSize="@dimen/body"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/padding"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawableStart="@drawable/create_homeless_location"
+                android:drawableTint="@color/icons_blue"
+                android:layout_marginTop="@dimen/top_margin"
+                android:layout_marginBottom="@dimen/bottom_margin"
+                />
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_margin"
+                android:layout_marginBottom="@dimen/bottom_margin"
+                android:backgroundTint="@color/light_blue"
+                android:orientation="vertical">
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/autocomplete_fragment_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name=
+                        "com.google.android.libraries.places.widget.AutocompleteSupportFragment" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_margin"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/homeless_edit_schedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/needs_edit_text_box"
+                    android:inputType="textMultiLine"
+                    android:gravity="top|start"
+                    android:drawablePadding="@dimen/padding"
+                    android:textSize="@dimen/body"
+                    android:drawableStart="@drawable/schedule_icon"
+                    android:drawableTint="@color/icons_blue" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/end_margin"
+                android:layout_marginTop="@dimen/top_margin"
+                android:layout_marginBottom="@dimen/cv_margins"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="@dimen/cv_margins"
+                    android:src="@drawable/needs_img"/>
+
+                <TextView
+                    android:id="@+id/most_important_need"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/body"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chip_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/bottom_margin"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/food_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@color/light_red"
+                    android:textColor="@color/black"
+                    android:text="@string/chip_food"
+                    android:textSize="@dimen/body"
+                    app:chipIcon="@drawable/food_icon"
+                    app:chipIconEnabled="true"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/clothes_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@color/blue_light"
+                    android:textColor="@color/black"
+                    android:text="@string/chip_clothes"
+                    android:textSize="@dimen/body"
+                    app:chipIcon="@drawable/clothes_icon"
+                    app:chipIconEnabled="true"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/work_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@color/lila_color"
+                    android:textColor="@color/black"
+                    android:text="@string/chip_work"
+                    android:textSize="@dimen/body"
+                    app:chipIcon="@drawable/work_icon"
+                    app:chipIconEnabled="true"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/lodging_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@color/green_color"
+                    android:textColor="@color/black"
+                    android:text="@string/chip_lodging"
+                    android:textSize="@dimen/body"
+                    app:chipIcon="@drawable/lodging_icon"
+                    app:chipIconEnabled="true"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/hygiene_chip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipBackgroundColor="@color/yellow_color"
+                    android:textColor="@color/black"
+                    android:text="@string/chip_hygiene_products"
+                    android:textSize="@dimen/body"
+                    app:chipIcon="@drawable/hygiene_icon"
+                    app:chipIconEnabled="true"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"/>
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/bottom_margin"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cancelEditButton"
+                    android:backgroundTint="@color/white"
+                    android:textSize="@dimen/body"
+                    android:layout_marginEnd="@dimen/end_margin"
+                    android:textColor="@color/colorPrimary"
+                    app:iconTint="@null"
+                    app:icon="@drawable/cancel_img"
+                    app:iconSize="48dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeColor="@color/red"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:text="@string/cancelEditBtn" />
+
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/saveHomelessBtn"
+                    android:backgroundTint="@color/white"
+                    android:textSize="@dimen/body"
+                    android:textColor="@color/colorPrimary"
+                    app:iconTint="@null"
+                    app:icon="@drawable/save_img"
+                    app:iconSize="48dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:strokeColor="@color/green"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:text="@string/saveEditBtn" />
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/deleteProfileBtn"
+                android:backgroundTint="@color/white"
+                android:textSize="@dimen/body"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/top_margin"
+                app:icon="@drawable/delete_homeless_icon"
+                app:iconTint="@null"
+                app:iconSize="48dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:strokeColor="@color/red"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:text="@string/deleteHomelessBtn" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</ScrollView>

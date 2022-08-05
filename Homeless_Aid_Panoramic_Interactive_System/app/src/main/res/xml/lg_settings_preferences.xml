@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    bindPreferenceSummaryToValue(findPreference("SSH-User"));
+    bindPreferenceSummaryToValue(findPreference("SSH-Password"));
+    bindPreferenceSummaryToValue(findPreference("SSH-IP"));
+    bindPreferenceSummaryToValue(findPreference("SSH-Port"));
+
+    <PreferenceCategory android:title="@string/basic_category">
+
+        <EditTextPreference
+            android:defaultValue="lg"
+            android:summary="lg"
+            android:inputType="text"
+            android:key="SSH-USER"
+            android:singleLine="true"
+            android:title="LiquidGalaxy SSH-USER" />
+
+        <EditTextPreference
+            android:defaultValue="lqgalaxy"
+            android:summary="lqgalaxy"
+            android:inputType="textPassword"
+            android:key="SSH-PASSWORD"
+            android:password="true"
+            android:singleLine="true"
+            android:title="LiquidGalaxy SSH-PASSWORD" />
+
+        <EditTextPreference
+            android:defaultValue="192.168.86.224"
+            android:summary="192.168.86.224"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
+            android:key="SSH-IP"
+            android:singleLine="true"
+            android:title="LiquidGalaxy SSH-IP" />
+
+        <EditTextPreference
+            android:defaultValue="22"
+            android:summary="22"
+            android:inputType="number"
+            android:key="SSH-PORT"
+            android:singleLine="true"
+            android:title="LiquidGalaxy SSH-PORT" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/advanced_category">
+
+        <ListPreference
+            android:key="logos_preference"
+            android:title="@string/logos_title"
+            android:summary="@string/logos_summary"
+            android:entries="@array/Slaves"
+            android:entryValues="@array/slavesAlias"/>
+
+
+
+        <ListPreference
+            android:key="homeless_preference"
+            android:title="@string/homeless_balloon_slaves"
+            android:summary="@string/homeless_balloon_summary"
+            android:entries="@array/Slaves"
+            android:entryValues="@array/slavesAlias"/>
+
+        <ListPreference
+            android:key="local_preference"
+            android:title="@string/local_statistics_slaves"
+            android:summary="@string/local_statistics_summary"
+            android:entries="@array/Slaves"
+            android:entryValues="@array/slavesAlias"/>
+
+        <ListPreference
+            android:key="global_preference"
+            android:title="@string/global_statistics_slaves"
+            android:summary="@string/global_statistics_summary"
+            android:entries="@array/Slaves"
+            android:entryValues="@array/slavesAlias"/>
+
+
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

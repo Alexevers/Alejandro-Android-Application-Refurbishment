@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margins"
+    tools:context=".liquidGalaxy.MainActivityLG">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_margin="@dimen/margins"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/elevation"
+            android:elevation="@dimen/elevation"
+            android:backgroundTint="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/margins">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/you_are"
+                    android:layout_marginEnd="@dimen/cv_margins"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/city_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text"
+                    android:layout_marginEnd="@dimen/cv_margins"
+                    android:textColor="@color/colorPrimary"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comma"
+                    android:layout_marginEnd="@dimen/cv_margins"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/country_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text"
+                    android:layout_marginEnd="@dimen/cv_margins"
+                    android:textColor="@color/colorPrimary"/>
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_margin="@dimen/margins"
+            android:layout_height="wrap_content"
+            app:cardElevation="@dimen/elevation"
+            android:elevation="@dimen/elevation"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/go_home_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content_description"
+                android:layout_gravity="center"
+                android:src="@drawable/go_home_icon"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/homeless_cv"
+            android:layout_width="@dimen/dashboard_cards"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/elevation"
+            android:elevation="@dimen/elevation"
+            android:backgroundTint="@color/color_first_card"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Media -->
+                <ImageView
+                    android:layout_width="@dimen/dashboard_image_cv"
+                    android:layout_height="@dimen/dashboard_image_cv"
+                    app:srcCompat="@drawable/homeless_image"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/content_description"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/homeless"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/volunteers_cv"
+            android:layout_width="@dimen/dashboard_cards"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/elevation"
+            android:elevation="@dimen/elevation"
+            android:backgroundTint="@color/color_third_card"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Media -->
+                <ImageView
+                    android:layout_width="@dimen/dashboard_image_cv"
+                    android:layout_height="@dimen/dashboard_image_cv"
+                    app:srcCompat="@drawable/volunteer_image"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/content_description"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/volunteers"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/donors_cv"
+            android:layout_width="@dimen/dashboard_cards"
+            app:cardElevation="@dimen/elevation"
+            android:elevation="@dimen/elevation"
+            android:backgroundTint="@color/color_second_card"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Media -->
+                <ImageView
+                    android:layout_width="@dimen/dashboard_image_cv"
+                    android:layout_height="@dimen/dashboard_image_cv"
+                    app:srcCompat="@drawable/donor_image"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/content_description"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/donors"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/live_overview_cv"
+            android:layout_width="@dimen/dashboard_cards"
+            app:cardElevation="@dimen/elevation"
+            android:elevation="@dimen/elevation"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/green_color"
+            android:layout_height="@dimen/dashboard_cards"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="16dp">
+
+                <!-- Title, secondary and supporting text -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/live_overview"
+                    android:gravity="center"
+                    android:textSize="@dimen/body"
+                    android:layout_gravity="center"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    />
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

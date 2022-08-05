@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".volunteer.LocationFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margins">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margins"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/body"
+                    android:layout_marginBottom="@dimen/bottom_margin"
+                    android:textColor="@color/grey"
+                    android:text="@string/location_fragment_title"/>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:layout_marginBottom="@dimen/bottom_margin"
+                    android:backgroundTint="@color/light_blue"
+                    android:orientation="vertical">
+
+                    <fragment
+                        android:id="@+id/autocomplete_fragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:name=
+                            "com.google.android.libraries.places.widget.AutocompleteSupportFragment" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <TextView
+                    android:id="@+id/selected_location_text"
+                    android:visibility="invisible"
+                    android:text="@string/selected_location"
+                    android:textSize="@dimen/body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:layout_marginBottom="@dimen/bottom_margin"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/top_margin"
+                    android:layout_marginBottom="@dimen/bottom_margin"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="@dimen/cv_margins"
+                        android:src="@drawable/location_img"
+                        />
+
+                    <TextView
+                        android:id="@+id/selected_location_tv"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/body"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+
+
+                <!-- MapFragment with lite mode enabled -->
+                <fragment
+                    android:id="@+id/map"
+                    class="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/map_fragment"
+                    android:layout_marginBottom="@dimen/bottom_margin"
+                    map:liteMode="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/cancelLocationBtn"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/top_margin"
+                        android:layout_marginBottom="@dimen/bottom_margin"
+                        android:text="@string/homeless_profile_cancel_button"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/body"
+                        map:iconSize="48dp"
+                        app:icon="@drawable/cancel_img"
+                        app:iconTint="@null"
+                        app:strokeColor="@color/red" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/saveLocationButton"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        app:strokeColor="@color/green"
+                        android:textColor="@color/colorPrimary"
+                        app:icon="@drawable/save_img"
+                        app:iconTint="@null"
+                        map:iconSize="48dp"
+                        android:layout_marginStart="@dimen/start_margin"
+                        android:textSize="@dimen/body"
+                        android:layout_marginTop="@dimen/top_margin"
+                        android:layout_marginBottom="@dimen/bottom_margin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/homeless_profile_save_button" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>

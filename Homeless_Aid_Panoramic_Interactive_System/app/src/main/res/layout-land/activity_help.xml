@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".liquidGalaxy.HelpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margins"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lg_help_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lg_help_title"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/title"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lg_connection_title"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lg_connection_body"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tools_options_title"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tools_options_body"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_dashboard_title"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_dashboard_body"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/city_title"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/city_body"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/homeless_title"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/homeless_body"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/volunteers_title"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/volunteers_body"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donors_title"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/donors_body"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/body"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

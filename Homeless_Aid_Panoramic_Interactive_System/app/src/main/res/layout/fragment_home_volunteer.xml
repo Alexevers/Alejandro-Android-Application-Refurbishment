@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".volunteer.HomeVolunteerFragment">
+
+    <LinearLayout
+        android:id="@+id/add_first_homeless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/top_margin"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_vol"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textSize="@dimen/title"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/top_margin"
+            android:src="@drawable/welcome_logo"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_homeless"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/top_margin"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:textSize="@dimen/title"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/top_margin"
+            android:src="@drawable/thank_you_img"
+            />
+
+    </LinearLayout>
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floatingActionMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/margins"
+        app:menu_showShadow="true"
+        app:menu_fab_label=""
+        android:elevation="@dimen/elevation"
+        app:menu_openDirection="up"
+        app:menu_labels_colorNormal="@color/colorPrimaryDark"
+        app:menu_labels_textColor="@color/white"
+        app:menu_labels_colorPressed="@color/colorPrimary"
+        app:menu_colorNormal="@color/colorPrimaryDark"
+        app:menu_colorPressed="@color/colorPrimary">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/new_homeless_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="@string/new_homeless_profile"
+            app:fab_size="mini"
+            app:fab_colorNormal="@color/colorPrimaryDark"
+            app:fab_colorPressed="@color/colorPrimary"
+            android:src="@drawable/add_homeless_profile_drawable">
+        </com.github.clans.fab.FloatingActionButton>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/send_delivery_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_label="@string/send_delivery_notification"
+            app:fab_colorNormal="@color/colorPrimaryDark"
+            app:fab_colorPressed="@color/colorPrimary"
+            android:src="@drawable/send_drawable"
+            app:fab_size="mini">
+        </com.github.clans.fab.FloatingActionButton>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+    <SearchView
+        android:id="@+id/volunteer_search"
+        android:padding="@dimen/padding"
+        android:layout_width="match_parent"
+        android:queryHint="@string/search_hint_donor_volunteer"
+        android:layout_height="?actionBarSize"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:scrollbars="vertical"/>
+
+</FrameLayout>
