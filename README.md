@@ -93,3 +93,12 @@ This project aims to use the Liquid Galaxy platform to display space related con
 You can find Google Play Version here: [Orbit Satellite Visualizer](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/Orbit-Satellite-Visualizer)
 
 More information about original project and deployer contact: https://github.com/moreaf/OrbitSatelliteVisualizer
+
+# Partners
+<div align="center">
+    <img src="./Images/logoTic.png" width="141" height="100" alt="css-in-readme">
+    <img src="./Images/logoFacens.png" width="188" height="100" alt="css-in-readme">
+      <img src="./Images/logo-DRONECORIA.png" width="223" height="150" alt="css-in-readme">
+      <img src="./Images/LGLAB logo.png" width="307" height="150" alt="css-in-readme">
+       <img src="./Images/logoLgEu.png" width="291" height="75" alt="css-in-readme">
+</div>
