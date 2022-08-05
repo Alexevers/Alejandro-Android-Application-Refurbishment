@@ -22,8 +22,13 @@ Liquid Galaxy as a meaningful presentation tool has a lot of information that ca
 This app shows the real time visualization of satellite images that are attached as layers of google earth, besides being able to have diverse information about the earth being graphically generated as storms, fires, masses of heat and water vapor, a synchronous earth visualization  allows for more complex interactions.
 
 ### Prerequisites
+- Liquid Galaxy (To be installed, go to following github repository:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy))
+- Android phone or tablet
+
+### Extra information
 - Language code: Dart
-- Devices to be used: Liquid Galaxy and an Android device
+- Deployed with Flutter
+- IDE used: Android Studio
 
 You can find Google Play Version here: [Image Satellite Visualizer](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/main/Image-Satellite-Visualizer-app)
 
@@ -45,10 +50,29 @@ With this application, it is intended to achieve the following objectives:
 
 ### Prerequisites
 - Android phone or Tablet with 6.0 OS Version or greater
-- In case you want to use the appliaction with Liquid Galaxy System:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy)
+- Liquid Galaxy (To be installed, go to following github repository:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy))
+
+### Extra information
+- Language code:
+- IDE used: Android Studio
+- BBDD: Firebase
+- Google MAPS API
+
+You can find Google Play Version here: [HAPIS](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/HAPIS)
+
+More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/GSoC2020_HomelessAidPanoramicInteractiveSystem
 
 ## Reforestation Assistant Simulator
 <div align="left">
-    <img src="./Images/RAS logo.png"  alt="css-in-readme">
+    <img src="./Images/RAS logo2.png"  alt="css-in-readme">
 </div>
+The Reforestation Assistant & Simulator idea is to create an app to help on reforestation of degraded areas of the planet by drone or manually. The project consist of an Android App where users can plan the reforesting missions, by defining areas of seeding, specific seed/tree location, drone landing points, fly zones and other helpful metrics. All the gathered information can be dynamically displayed on a Liquid Galaxy using KMLs and also on the app with the help of graphics and text to bring users a great and immersive overview of the mission panorama.
+
+### Prerequisites
+- Android phone or tablet
+- Liquid Galaxy device(optional)
+
+You can find Google Play Version here: [RAS](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/RAS)
+
+More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/reforestation-assistant-simulator
 
