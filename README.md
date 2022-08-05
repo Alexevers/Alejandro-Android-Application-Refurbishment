@@ -14,16 +14,41 @@ The project's purpose is to update and upload these apps.
 
 Here there are app sections with info:
 
-# Image Satellite Visualizer
+## Image Satellite Visualizer
 <div align="left">
     <img src="./Images/image_satellite_visualizer_logo.png" width="439" height="200" alt="css-in-readme">
 </div>
 Liquid Galaxy as a meaningful presentation tool has a lot of information that can be displayed for diverse purposes like an educational tool, or for a monitoring system. 
 This app shows the real time visualization of satellite images that are attached as layers of google earth, besides being able to have diverse information about the earth being graphically generated as storms, fires, masses of heat and water vapor, a synchronous earth visualization  allows for more complex interactions.
 
+### Prerequisites
 - Language code: Dart
 - Devices to be used: Liquid Galaxy and an Android device
 
-More information about: https://github.com/LiquidGalaxyLAB/image-satellite-visualizer
+You can find Google Play Version here: [Image Satellite Visualizer](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/main/Image-Satellite-Visualizer-app)
 
+More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/image-satellite-visualizer 
+
+## Homeless Aid Panoramic Interactive System (HAPIS)
+<div align="left">
+    <img src="./Images/logo HAPIS.png" width="356" height="200" alt="css-in-readme">
+</div>
+HAPIS is a social project that has a very clear objective: to give people with resources the opportunity to help other people, in need, who are going through a bad situation and do not have such basic things as food or clothing.
+
+With this application, it is intended to achieve the following objectives:
+
+- Reduce severe material deprivation among app users.
+- Provide a new help system for people without resources.
+- Promote the use of espectacular technologies in everyday situations.
+- Making the delivery service for basic goods faster and more effective helps people in need.
+- Foster the relationship between the two main types of people, the poor and the people who can help. In this way, a new way of raising awareness could be found.
+
+### Prerequisites
+- Android phone or Tablet with 6.0 OS Version or greater
+- In case you want to use the appliaction with Liquid Galaxy System:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy)
+
+## Reforestation Assistant Simulator
+<div align="left">
+    <img src="./Images/RAS logo.png"  alt="css-in-readme">
+</div>
 
