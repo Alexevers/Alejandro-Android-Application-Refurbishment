@@ -37,6 +37,4 @@ With this application, it is intended to achieve the following objectives:
 - BBDD: Firebase
 - Google MAPS API
 
-You can find Google Play Version here: [HAPIS](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/HAPIS)
-
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/GSoC2020_HomelessAidPanoramicInteractiveSystem
