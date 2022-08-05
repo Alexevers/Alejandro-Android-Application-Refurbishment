@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "22818431704",
+    "firebase_url": "https://gsoc2020-hapis.firebaseio.com",
+    "project_id": "gsoc2020-hapis",
+    "storage_bucket": "gsoc2020-hapis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22818431704:android:306eb4cc32dcb9d7c66dad",
+        "android_client_info": {
+          "package_name": "mihaela.claudia.diosan.gsoc2020_homelessaidpanoramicinteractivesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22818431704-a39384q1th0inqg35q1sh9h5mi997grf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mihaela.claudia.diosan.gsoc2020_homelessaidpanoramicinteractivesystem",
+            "certificate_hash": "e301cd8ba8646f1f2788ac74cf26436ec720cd41"
+          }
+        },
+        {
+          "client_id": "22818431704-oftc7j20j0n9sd8lrufni4ndal8e4vff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwoMvG7UsmBX4RtF6ebHZrU8qQ1KXJPtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22818431704-oftc7j20j0n9sd8lrufni4ndal8e4vff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

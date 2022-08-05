@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "mihaela.claudia.diosan.gsoc2020_homelessaidpanoramicinteractivesystem"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 3
+        versionName "1.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'com.google.firebase:firebase-functions:19.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    //noinspection GradleCompatible
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.3.0-alpha01'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.braintreepayments:card-form:3.1.1'
+    implementation 'me.abhinay.input:currency-edittext:1.1'
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'com.github.gcacace:signature-pad:1.3.1'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    implementation 'com.google.android.libraries.places:places:2.3.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.basgeekball:awesome-validation:4.2'
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
+    implementation 'com.google.firebase:firebase-firestore:21.4.3'
+    implementation 'com.firebaseui:firebase-ui-firestore:4.1.0'
+    implementation 'com.firebaseui:firebase-ui-storage:4.3.1'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'com.google.firebase:firebase-messaging:20.1.7'
+
+
+}
