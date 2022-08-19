@@ -1,12 +1,42 @@
-# Alejandro-Android-Application-Refurbishment
-This is a Google Summer of Code 2022 project. Liquid Galaxy LAB has been participating in Google Summer of Code for 12 years,
+
+<div align="center">
+    <img src="./Images/logo3.png" width="200" height="200" alt="css-in-readme">
+    <img src="./Images/LGlogo1.png" width="243" height="175" alt="css-in-readme">
+</div>
+
+# Android Application Refurbishment
+This is a Google Summer of Code 2022 project. 
+
+Liquid Galaxy LAB has been participating in Google Summer of Code for 12 years,
 and during all these years, there have been many contributors who have developed applications to be used in a Liquid Galaxy.
 However, some of these applications haven’t been released to the Play Store or App Gallery.
-The project's purpose is to updated and upload these apps.
+The project's purpose is to update and upload these apps.
 
 Here there are app sections with info:
 
-# Image-Satellite-Visualizer
-Liquid Galaxy as a meaningful presentation tool has a lot of information that can be displayed for diverse purposes like an educational tool, or for a monitoring system. With that in mind, the idea of ​​the project is the real time visualization of satellite images that would be attached as layers of google earth, besides being able to have diverse information of the earth being graphically generated as storms, fires, masses of heat and water vapor, a synchronous earth visualization will allow for more complex interactions. From there, the entire application would be controlled through a script responsible for managing calls made to the satellite's external APIs (e.g. NASA API and Copernicus) that responses with the metadata necessary for the kml creation and a tablet application that would give the user control of which layers or information would like to be displayed and responsible for handling the API calls, manipulate KMLs and sending them to Liquid Galaxy through Bash scripts. The application’s front end will be developed with Flutter and the image selected by the user will be generated based on selected options.
+## Orbit Satellite Visualizer
+<div align="left">
+    <img src="./Images/Orbit logo.png"  alt="css-in-readme">
+</div>
+This project aims to use the Liquid Galaxy platform to display space related concepts. You can live display single satellites by introducing its Satellite Catalog Number (SATCAT or SCN) and fixed constellations such as Iridium and Starlink. Furthermore, a database is included with satellite orbits, a sample rocket trajectory and the most important spaceports of the world.
 
-More information about: https://github.com/LiquidGalaxyLAB/image-satellite-visualizer
+### Prerequisites
+- 10 inches tablet with an Android equal or superior to version 8.0 (Oreo). 
+- Liquid Galaxy (To be installed, go to following github repository:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy))
+
+### Extra information
+- Language code: Java
+- IDE used: Android Studio
+
+You can find Google Play Version here: [Orbit Satellite Visualizer](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/Orbit-Satellite-Visualizer)
+
+More information about original project and deployer contact: https://github.com/moreaf/OrbitSatelliteVisualizer
+
+# Partners
+<div align="center">
+    <img src="./Images/logoTic.png" width="141" height="100" alt="css-in-readme">
+    <img src="./Images/logoFacens.png" width="188" height="100" alt="css-in-readme">
+      <img src="./Images/logo-DRONECORIA.png" width="223" height="150" alt="css-in-readme">
+      <img src="./Images/LGLAB logo.png" width="307" height="150" alt="css-in-readme">
+       <img src="./Images/logoLgEu.png" width="291" height="75" alt="css-in-readme">
+</div>
