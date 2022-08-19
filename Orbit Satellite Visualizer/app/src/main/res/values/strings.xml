@@ -1,0 +1,334 @@
+<resources>
+    <string name="app_name">Orbit Satellite Visualizer</string>
+    <string name="insert_the_URL">Insert the URL to connect to Liquid Galaxy</string>
+    <string name="connection_failed">Connection Failed</string>
+    <string name="example_to_connect">192.38.48.77:4897</string>
+    <string name="example_name">Insert your file name</string>
+    <string name="save_locally">Save Locally</string>
+    <string name="save_google_drive">Save on Google Drive</string>
+    <string name="Sign_in_alert">Please Sign in to get full access</string>
+    <string name="image_available_on_screen">Image Available on screen</string>
+    <string name="image_not_available_on_screen">Image not Available on screen</string>
+    <string name="connecting"> Connecting …</string>
+    <string name="test_connection"> Test Location …</string>
+
+    <string name="button_connect">Connect</string>
+    <string name="button_try_again">Try Again</string>
+    <string name="button_change">Change</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_show">Show LG</string>
+    <string name="button_clean_story_board">Clean Storyboard</string>
+    <string name="button_test">Test</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_demo">Demo Barranquilla</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="button_gdg">GDG</string>
+    <string name="button_tour">Tour GDG</string>
+    <string name="button_stop_tour">Stop Tour</string>
+    <string name="button_open">Open</string>
+    <string name="button_back">Back</string>
+    <string name="button_previous">Previous</string>
+    <string name="button_save">Save</string>
+    <string name="button_save_locally">Save locally</string>
+    <string name="button_save_on_google_driver">\u0020 Save on Drive (Max 5MB) \u0020</string>
+    <string name="button_next">Next</string>
+    <string name="button_location">Location</string>
+    <string name="button_movements">Movements</string>
+    <string name="button_balloon">Balloon</string>
+    <string name="button_shapes">Shapes</string>
+    <string name="button_description">Description</string>
+    <string name="button_add">Add</string>
+    <string name="button_log_in">Log in</string>
+    <string name="button_change_password">Change Password</string>
+    <string name="button_update_password">Update Password</string>
+    <string name="button_log_out">Log Out</string>
+    <string name="button_Connect_Google">Continue with Google</string>
+    <string name="button_import_drive">Connect to Google Drive</string>
+    <string name="button_update_import_drive">Update files from to Google Drive</string>
+
+    <string name="file_name">File Name</string>
+    <string name="storyboards_steps_scroll">Storyboard steps scroll</string>
+    <string name="add_main_contents">Add main contents</string>
+    <string name="file_name_example">Sample File 1</string>
+    <string name="file_description">Description</string>
+    <string name="file_description_slot">Description needed</string>
+    <string name="size_file">Current Size File: \u0020</string>
+
+
+    <string name="status_of_connection_on">Image Available on screen</string>
+    <string name="status_of_connection_off">Image Unavailable on screen</string>
+
+    // Top Bar
+    <string name="menu_scn">Search by SCN</string>
+    <string name="menu_single_spacecrafts">Single Orbits</string>
+    <string name="menu_constellations">Satellite Constellations</string>
+    <string name="menu_rocket">Rockets</string>
+    <string name="menu_spaceports">Spaceports</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_about">About</string>
+
+
+    <string name="account_username">Username</string>
+    <string name="account_password">Password</string>
+    <string name="account_hint_username">Your username</string>
+    <string name="account_hint_password">Your password</string>
+    <string name="account_liquid_galaxy">liquid galaxy</string>
+
+    //Use by all the Create options
+    <string name="location_name_title_empty">NA</string>
+    <string name="position_save">Step Position*</string>
+    <string name="example_save">Step Position</string>
+
+
+    //Create messages
+    <string name="create_message_charging_storyboard">Charging the storyboard</string>
+    <string name="create_message_error_charging_storyboard">There was an unexpected error charging the storyboard /n Please, try again</string>
+    <string name="explain_step_position">*The position where the content is going to be saved in the storyboard</string>
+
+
+    //String for create storyboard location activity
+    <string name="location_name">Location name </string>
+    <string name="example_storyboard_name">Storyboard name </string>
+    <string name="example_location_name">Insert the name of your Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="latitude_results">-0,000000</string>
+    <string name="longitude">Longitude</string>
+    <string name="longitude_results">0,000000</string>
+    <string name="example_latitude_longitude_altitude">0.000000</string>
+    <string name="altitude">Altitude</string>
+    <string name="duration">Duration</string>
+    <string name="seconds">s</string>
+    <string name="duration_example">3</string>
+    <string name="heading">Heading</string>
+    <string name="heading_example">0.000000</string>
+    <string name="tilt">Tilt</string>
+    <string name="tilt_example">0.000000</string>
+    <string name="range">Range</string>
+    <string name="range_example">0.000000</string>
+    <string name="altitude_mode">Altitude Mode</string>
+    <string name="altitude_mode_example">relativeToSeaFloor</string>
+
+    //String for create storyboard movements activity
+    <string name="old_heading">Old Heading</string>
+    <string name="old_tilt">Old Tilt</string>
+    <string name="orbit_mode">Orbit Mode</string>
+    <string name="seek_bar_hint">0°</string>
+
+    //String for create storyboard place balloon activity
+    <string name="hint_insert_text">Insert text here</string>
+    <string name="button_add_image">Add Image</string>
+    <string name="description_image">Image selected</string>
+    <string name="video_url">Video URL</string>
+    <string name="example_video_url">https://www.youtube.com/embed/xp9qHGNCcjA</string>
+
+    //String for create storyboard place shape activity
+    <string name="point">Point</string>
+    <string name="button_add_point">Add a Point</string>
+    <string name="button_clear_points">Delete All Points</string>
+    <string name="button_clear_point">Delete Last Point</string>
+    <string name="delete_point">You need minimum two points</string>
+    <string name="extrude">Extrude</string>
+
+
+    //Labels of Activities
+    <string name="tittle_create">Create</string>
+    <string name="tittle_create_action_location">Location</string>
+    <string name="tittle_create_action_movement">Movement</string>
+    <string name="tittle_create_action_balloon">Balloon</string>
+    <string name="tittle_create_save">Save</string>
+    <string name="tittle_create_action_graphic">Graphic</string>
+    <string name="tittle_create_action_shape">Shape</string>
+    <string name="tittle_create_action_description">Description</string>
+
+    <string name="tittle_my_storyboard">My Storyboard</string>
+    <string name="tittle_export_google_drive">Export</string>
+    <string name="tittle_import_google_drive">Import</string>
+    <string name="tittle_connect">Connect</string>
+    <string name="tittle_account">Account</string>
+    <string name="tittle_demo">Demo</string>
+    <string name="tittle_about">About</string>
+    <string name="tittle_web_scraping">Web Scraping</string>
+    <string name="tittle_help">Help</string>
+    <string name="tittle_main_activity">Main Activity</string>
+    <string name="toast">Toast</string>
+
+    //Image Label
+    <string name="label_logo">Logo Liquid Galaxy</string>
+    <string name="barranquilla_colombian_flags">Barranquilla and Colombian Flags</string>
+    <string name="logos">partner logos</string>
+    <string name="tittle_TobBar">Topbar</string>
+
+
+    //Messages
+    <string name="activity_connection_success">You are now connected to Liquid Galaxy</string>
+    <string name="activity_connection_error">It was not possible to connect to Liquid Galaxy. \n Please, go to the tab connect and try again.</string>
+    <string name="activity_connection_error_connect">It was not possible to connect to Liquid Galaxy.</string>
+    <string name="activity_connection_host_port_error">The format for the host and port is not valid. \n For Example, 0.0.0.0:22 is a valid format.</string>
+    <string name="activity_create_location_missing_field_error">Please, fill in all the fields</string>
+    <string name="activity_create_location_missing_file_name">Please, fill the location name field</string>
+    <string name="activity_create_location_missing_latitude_field_error">Please, fill the latitude field</string>
+    <string name="activity_create_location_missing_longitude_field_error">Please, fill the longitude field</string>
+    <string name="activity_create_location_missing_altitude_field_error">Please, fill the altitude field</string>
+    <string name="activity_create_location_missing_duration_field_error">Please, fill the duration field</string>
+    <string name="activity_create_location_missing_heading_field_error">Please, fill the heading field</string>
+    <string name="activity_create_location_missing_tilt_field_error">Please, fill the tilt field</string>
+    <string name="activity_create_location_missing_range_field_error">Please, fill the range field</string>
+    <string name="activity_create_location_missing_altitude_mode_field_error">Please, fill the altitude mode field</string>
+    <string name="activity_create_missing_duration_field_error">Please, fill the duration field</string>
+    <string name="You_need_a_name_to_create_a_story_board">You need to insert a name to create a storyboard</string>
+    <string name="error_my_storyboards">Error. The file has been corrupted</string>
+    <string name="You_must_have_a_location">You must have a location. Before any action</string>
+    <string name="You_need_a_location_to_create_a_movement">You need a location to create a movement</string>
+    <string name="You_need_a_location_to_create_a_balloon">You need a location to create a balloon</string>
+    <string name="You_need_a_location_to_create_a_shape">You need a location to create a shape</string>
+    <string name="alert_message_delete_action_location">The actions related to the location will be deleted</string>
+    <string name="alert_message_delete_storyboard">The storyboard will be deleted</string>
+    <string name="alert_permission_denied_image">Permission denied, you cannot select an image</string>
+    <string name="alert_permission_denied_save">Permission denied, you cannot save a story board</string>
+    <string name="alert_permission_denied_import_google_drive">Permission denied, you cannot open the story board from Google Drive</string>
+    <string name="alert_permission_denied_import_locally">Permission denied,  you cannot open the story board from My Storyboards</string>
+    <string name="alert_permission_denied_test_image">Permission denied, you cannot test the balloon in liquid galaxy</string>
+    <string name="alert_permission_denied_video">Permission denied, you cannot select an video</string>
+    <string name="alert_save_story_board">The storyboard has been successfully saved</string>
+    <string name="alert_update_story_board">The storyboard has been updated</string>
+    <string name="icon_action">Icon Action</string>
+    <string name="message_file_less_5MB">The storyboard need to be less of 5MB</string>
+    <string name="message_error_file_size_5MB">File size: max 5MB</string>
+    <string name="message_error_connection">Please, check your internet connection</string>
+    <string name="message_update_web_scraping">You need first to select a option to download the data</string>
+    <string name="message_downloading_data_tcs">Downloading data from Tech Conference Spain</string>
+    <string name="message_downloading_data_gdg">Downloading data from GDG</string>
+    <string name="message_downloading_file">Downloading File</string>
+    <string name="message_uploading_file">Uploading File</string>
+
+    //Google Drive
+    <string name="message_google_drive_success_log_in">Searching files from Google Drive</string>
+    <string name="message_google_drive_failed_log_in">Unable to sign in. Make sure you have internet connection and try again</string>
+    <string name="message_failed_upload">Failed to upload the file to Google Drive</string>
+    <string name="message_success_upload">Uploaded file to Google Drive</string>
+
+
+    //Account
+    <string name="admin_password">Admin Password</string>
+    <string name="example_admin_password">Your Password</string>
+    <string name="current_admin_password">Current Admin Password</string>
+    <string name="example_current_admin_password">Your Current Password</string>
+    <string name="new_admin_password">New Admin Password</string>
+    <string name="example_new_admin_password">Your New Password</string>
+    <string name="confirm_admin_password">Confirm Admin Password</string>
+    <string name="example_confirm_admin_password">Your Confirm Password</string>
+    <string name="message_log_in_success">Your are now log in</string>
+    <string name="message_log_in_fail">Your password is wrong</string>
+    <string name="message_current_password_is_wrong">Wrong current password</string>
+    <string name="message_new_confirm_password_not_equal">The new and confirm password need to be equal</string>
+    <string name="message_you_need_log_in">You need to be log in to access to this feature \n Go to Account tab an log in</string>
+    <string name="message_your_password_update">Your password has been updated</string>
+
+    //Fix Values
+    <string name="action_default_time_location">7</string>
+    <string name="action_default_time_movement">10</string>
+    <string name="action_default_time_balloon">8</string>
+    <string name="action_default_time_shape">8</string>
+
+
+    //Web scrapping
+    <string name="text_view_community_name">Community Name</string>
+    <string name="text_view_city">City</string>
+    <string name="text_view_country">Country</string>
+    <string name="text_based_kevin">Based on Kevin Simper\'s gdgsearch.com \n https://github.com/kevinsimper/gdg-search</string>
+    <string name="text_empty">empty</string>
+    <string name="text_search">Type and Search</string>
+
+    //About
+    <string name="my_name">Orbit Satellite Visualizer for Liquid Galaxy, Google Summer of Code 2021</string>
+    <string name="linked_id">Project based on the previous GSoC "SimpleCMS for Liquid Galaxy" by Diego Riveros</string>
+    <string name="github_account">Coded by Albert Morea</string>
+
+    //Demo
+    <string name="start_demo">Check out your Liquid Galaxy \n Running Barranquilla, Colombia Demo</string>
+    <string name="stop_demo">Stop</string>
+    <string name="stop_message">Thanks for watching the demo. We hope you like it!</string>
+
+
+    //Explain texts
+    <string name="text_version">Version 1.0.0</string>
+    <string name="butt_location_explain">Open a location content</string>
+    <string name="butt_movement_explain">Open a movement content</string>
+    <string name="butt_balloon_explain">Open a balloon content</string>
+    <string name="butt_shape_explain">Open a shape content</string>
+    <string name="butt_stop_explain">Stop a running test</string>
+    <string name="butt_test_explain2">Test a storyboard, location, movement, balloon, shape</string>
+    <string name="butt_clean_story_board_explain">Clean the storyboard</string>
+    <string name="butt_save_locally_explain">Save the storyboard in your tablet</string>
+    <string name="butt_save_on_google_driver_explain">Save the storyboard in Google Drive</string>
+    <string name="butt_delete_explain">Delete the action</string>
+    <string name="butt_cancel_explain">Cancel the edition of the content</string>
+    <string name="butt_add_explain">Add a location, movement, balloon, shape to the storyboard</string>
+    <string name="butt_save_explain">Save a location, movement, balloon, shape to the storyboard</string>
+    <string name="butt_add_point_explain">Add a point at the end</string>
+    <string name="butt_delete_point_explain">Delete the last point</string>
+    <string name="butt_delete_points_explain">Delete all the point and leave the first two</string>
+    <string name="butt_demo_barranquilla_explain">Starts the demo from barranquilla</string>
+    <string name="butt_connect_google_drive_explain">Connect to Google Drive and download all the files</string>
+    <string name="butt_update_liquid_galaxy_explain">Update the files that are in Google Drive</string>
+    <string name="butt_refresh_explain">Refresh all the information of the GDG\'s communities</string>
+    <string name="butt_tour_explain">Start a tour in all the GDG\'s communities</string>
+    <string name="butt_stop_tour_explain">Stop the GDG\'s communities tour</string>
+    <string name="butt_connect_liquid_galaxy_explain">Connect to Liquid Galaxy</string>
+    <string name="butt_try_again_liquid_galaxy_explain">Try to connect to the Liquid Galaxy, again</string>
+
+
+    //Elevation Types
+    <string-array name="elevation_types">
+        <item>absolute</item>
+        <item>clampToGround</item>
+        <item>clampToSeaFloor</item>
+        <item>relativeToGround</item>
+        <item>relativeToSeaFloor</item>
+    </string-array>
+
+
+    <dimen name="top_bar_text_font_size">18sp</dimen>
+    <dimen name="primary_text_font_size">20sp</dimen>
+    <dimen name="button_text_font_size">23sp</dimen>
+    <dimen name="button_main_text_font_size">25sp</dimen>
+    <dimen name="information_text_font_size">35sp</dimen>
+    <dimen name="results_text_font_size">28sp</dimen>
+    <dimen name="hint_text_font_size">30sp</dimen>
+    <dimen name="simple_cms">35sp</dimen>
+
+
+    <string name="send_orbit">SEND ORBIT</string>
+    <string name="button_show_iss">DISPLAY ORBIT</string>
+    <string name="button_show_starlink">DISPLAY ORBIT</string>
+    <string name="button_show_enxaneta">DISPLAY ORBIT</string>
+    <string name="starlink_constellation">SHOW STARLINK ORBITS</string>
+    <string name="iridium_constellation">SHOW IRIDIUMS ORBITS</string>
+    <string name="starlink_const_live">SHOW STARLINK LIVE</string>
+    <string name="iridium_const_live">SHOW IRIDIUMS LIVE</string>
+    <string name="get_tle">GET TLE</string>
+    <string name="button_iss_live">DISPLAY LIVE</string>
+    <string name="button_starlink_live">DISPLAY LIVE</string>
+    <string name="button_enxaneta_live">DISPLAY LIVE</string>
+    <string name="butt_catalog">Search by catalog ID</string>
+    <string name="text_catalog">You can display any satellite or orbiting body around Earth just by inserting here its Satellite Catalog Number</string>
+    <string name="enter_SCN">Enter a Satellite Catalog Number...</string>
+    <string name="button_send_scn">DISPLAY SATELLITE</string>
+    <string name="scn_description">The Satellite Catalog Number (also known as NORAD (North American Aerospace Defense) Catalog Number, NORAD ID or USSPACECOM object number ) is a sequential nine-digit number assigned by the United States Space Command in order of discovery to all artificial objects in the orbits of Earth and Mars and space probes launched from Earth. The first catalogued object, catalog number 1, is the Sputnik 1 launch vehicle, with the Sputnik 1 satellite having been assigned catalog number 2.</string>
+    <string name="stop_live_display">STOP LIVE DISPLAY</string>
+    <string name="clean_kml">CLEAN LG DISPLAY</string>
+    <string name="load_enxaneta">LOAD ENXANETA SCN 47954</string>
+    <string name="load_iss">LOAD ISS SCN 25544</string>
+    <string name="load_starlink">LOAD STARLINK-24 SCN 44238</string>
+    <string name="load_iridium">LOAD IRIDIUM 7 SCN 24793</string>
+    <string name="load_tiangong">LOAD TIANGONG 1 SCN 37820</string>
+
+    <string name="sp_baikonur">BAIKONUR</string>
+    <string name="sp_china">JIUQUAN</string>
+    <string name="sp_kourou">KOUROU</string>
+    <string name="sp_ksc">KENNEDY SPACE CENTER</string>
+    <string name="sp_rocketlab">MAHIA</string>
+    <string name="sp_starbase">STARBASE</string>
+</resources>

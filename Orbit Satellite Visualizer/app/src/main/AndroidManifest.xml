@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.galaxy.orbitsatellitevisualizer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/orbit_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/orbit_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OrbitSatelliteVisualizer">
+        <activity android:name=".DemoThread"></activity>
+        <activity android:name=".RocketsActivity" />
+        <activity android:name=".SpaceportsActivity" />
+        <activity
+            android:name=".CatalogActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".create.action.CreateKMLActivity" />
+        <activity android:name=".ConstellationsActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".SingleSpacecraftsActivity" />
+        <activity android:name=".TopBarActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:screenOrientation="sensorLandscape" android:name="com.galaxy.orbitsatellitevisualizer.SplashScreen"
+            android:theme="@style/SplashScreen"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

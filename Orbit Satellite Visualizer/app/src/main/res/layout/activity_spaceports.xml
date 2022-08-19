@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpaceportsActivity">
+
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/activity_top_bar"
+        android:layout_width="1280dp"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="150sp"
+        android:layout_height="450sp"
+        android:layout_marginBottom="45dp"
+        android:onClick="sendBaikonur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sp_baikonur" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="150sp"
+        android:layout_height="450sp"
+        android:layout_marginBottom="45dp"
+        android:onClick="sendJiuquan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:srcCompat="@drawable/sp_china" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="150sp"
+        android:layout_height="450sp"
+        android:layout_marginBottom="45dp"
+        android:onClick="sendKourou"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:srcCompat="@drawable/sp_kourou" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="150sp"
+        android:layout_height="450sp"
+        android:layout_marginBottom="45dp"
+        android:onClick="sendKSC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:srcCompat="@drawable/sp_ksc" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="150sp"
+        android:layout_height="450sp"
+        android:layout_marginBottom="45dp"
+        android:onClick="sendMahia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:srcCompat="@drawable/sp_rocketlab" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="150sp"
+        android:layout_height="450sp"
+        android:layout_marginBottom="45dp"
+        android:onClick="sendStarbase"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:srcCompat="@drawable/sp_starbase" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/sp_baikonur"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/sp_china"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/sp_kourou"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/sp_ksc"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/sp_rocketlab"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/sp_starbase"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <TextView
+        android:id="@+id/textView11"
+        style="@style/spinnerItemStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Click in any of the following images to display the spaceport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/activity_top_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/text_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto"
+        android:minWidth="140dp"
+        android:text="@string/account_username"
+        android:textColor="@color/textColorClick"
+        android:textSize="@dimen/primary_text_font_size"
+        app:layout_constraintEnd_toStartOf="@+id/username"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/username" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="416dp"
+        android:layout_marginBottom="104dp"
+        android:autofillHints="@string/account_hint_username"
+        android:background="@drawable/rectangle_insert_url"
+        android:fontFamily="@font/roboto_thin"
+        android:hint="@string/account_hint_username"
+        android:inputType="text"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/textColorClick"
+        android:textColorHint="@color/hintColor"
+        android:textSize="@dimen/primary_text_font_size"
+        app:layout_constraintBottom_toTopOf="@+id/text_insert_url"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_username" />
+
+    <TextView
+        android:id="@+id/text_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto"
+        android:minWidth="140dp"
+        android:text="@string/account_password"
+        android:textColor="@color/textColorClick"
+        android:textSize="@dimen/primary_text_font_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/password" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="416dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="@string/account_hint_password"
+        android:background="@drawable/rectangle_insert_url"
+        android:fontFamily="@font/roboto_thin"
+        android:hint="@string/account_hint_password"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/textColorClick"
+        android:textColorHint="@color/hintColor"
+        android:textSize="@dimen/primary_text_font_size"
+        app:layout_constraintBottom_toTopOf="@+id/text_insert_url"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/text_password"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/text_insert_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto"
+        android:minWidth="665dp"
+        android:text="@string/insert_the_URL"
+        android:textColor="@color/textColorClick"
+        android:textSize="@dimen/hint_text_font_size"
+        app:layout_constraintBottom_toTopOf="@+id/uri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/uri"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="370dp"
+        android:layout_marginEnd="416dp"
+        android:layout_marginBottom="44dp"
+        android:autofillHints="@string/example_to_connect"
+        android:background="@drawable/rectangle_insert_url"
+        android:fontFamily="@font/roboto_thin"
+        android:hint="@string/example_to_connect"
+        android:inputType="textUri"
+        android:maxLength="50"
+        android:textAlignment="center"
+        android:textColor="@color/textColorClick"
+        android:textColorHint="@color/hintColor"
+        android:textSize="@dimen/hint_text_font_size"
+        app:layout_constraintBottom_toTopOf="@+id/butt_connect_liquid_galaxy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/butt_connect_liquid_galaxy"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="370dp"
+        android:layout_marginEnd="416dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/button_primary"
+        android:elevation="8dp"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/button_connect"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/button_text_font_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/connecting"
+        android:layout_width="665dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginEnd="287dp"
+        android:fontFamily="@font/roboto_thin"
+        android:textAlignment="center"
+        android:textColor="@color/textColorClick"
+        android:textSize="@dimen/simple_cms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/butt_connect_liquid_galaxy" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="693dp"
+        android:layout_height="495dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="316dp"
+        android:layout_marginBottom="120dp"
+        android:contentDescription="@string/label_logo"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:src="@drawable/logoorbit"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/butt_try_again"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="370dp"
+        android:layout_marginEnd="416dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/button_primary"
+        android:elevation="8dp"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/button_try_again"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/button_text_font_size"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

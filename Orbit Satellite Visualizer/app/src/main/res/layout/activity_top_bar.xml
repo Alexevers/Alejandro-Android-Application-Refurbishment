@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    tools:context=".TopBarActivity">
+
+
+    <Button
+        android:id="@+id/butt_about"
+        android:layout_width="0dp"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto"
+        android:onClick="buttAbout"
+        android:text="@string/menu_about"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/butt_connect_menu"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/butt_single_spacecrafts"
+        android:layout_width="0dp"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto"
+        android:onClick="buttSingleSpacecraft"
+        android:text="@string/menu_single_spacecrafts"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/butt_constellations"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/butt_scn"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/butt_scn"
+        android:layout_width="0dp"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto"
+        android:onClick="buttCatalog"
+        android:text="@string/menu_scn"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/butt_single_spacecrafts"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/butt_rockets"
+        android:layout_width="0dp"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:fontFamily="@font/roboto"
+        android:onClick="buttRockets"
+        android:text="@string/menu_rocket"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/butt_spaceports"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/butt_constellations"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/butt_constellations"
+        android:layout_width="0dp"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/roboto"
+        android:onClick="buttConstellations"
+        android:text="@string/menu_constellations"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/butt_rockets"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/butt_single_spacecrafts"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/butt_spaceports"
+        android:layout_width="0dp"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/roboto"
+        android:onClick="buttSpaceports"
+        android:text="@string/menu_spaceports"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/butt_connect_menu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/butt_rockets"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/butt_connect_menu"
+        android:layout_width="0dp"
+        android:layout_height="81dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/roboto"
+        android:onClick="buttConnectMenu"
+        android:text="@string/menu_connect"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/butt_about"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/butt_spaceports"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ButtonStyle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

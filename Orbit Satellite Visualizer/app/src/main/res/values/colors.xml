@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#F2F2F2</color>
+    <color name="backgroundDialog">#E5E5E5</color>
+    <color name="backgroundStoryBoard">#A8AEB4</color>
+    <color name="colorPrimary">#1a237e</color>
+    <color name="purple_700">#1a237e</color>
+    <color name="teal_200">#1a237e</color>
+    <color name="teal_700">#1a237e</color>
+    <color name="black">#1a237e</color>
+    <color name="textColorPrimary">#F2F2F2</color>
+    <color name="textColorClick">#000000</color>
+    <color name="hintColor">#D0D0D0</color>
+    <color name="button">#618AAD</color>
+    <color name="buttonAlt">#C4C4C4</color>
+    <color name="colorSecondary">#9fa8da</color>
+    <color name="colorSeekAndSwitchBackground">#DFEFF6</color>
+</resources>

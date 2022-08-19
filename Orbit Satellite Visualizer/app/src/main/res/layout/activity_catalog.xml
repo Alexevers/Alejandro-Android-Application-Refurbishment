@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatalogActivity">
+
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/activity_top_bar"
+        android:layout_width="1280dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/text_catalog"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <EditText
+        android:id="@+id/scn_field"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="@string/enter_SCN"
+        android:inputType="number"
+        android:maxLength="5"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:onClick="sendMessage"
+        android:text="@string/button_send_scn"
+        app:layout_constraintBottom_toBottomOf="@+id/scn_field"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/scn_field"
+        app:layout_constraintTop_toTopOf="@+id/scn_field"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="6dp"
+        android:text="Or you can load one of these examples:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scn_field" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="#C30A0A"
+        android:onClick="cleanLG"
+        android:text="@string/clean_kml"
+        app:layout_constraintBottom_toBottomOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="@+id/button6" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="745dp"
+        android:layout_height="284dp"
+        android:layout_marginStart="464dp"
+        android:layout_marginEnd="71dp"
+        android:text="@string/scn_description"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/load_enxaneta"
+        android:layout_width="262sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:onClick="load_enxaneta"
+        android:text="@string/load_enxaneta"
+        app:layout_constraintBottom_toTopOf="@+id/load_iss"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/load_iss"
+        android:layout_width="262sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:onClick="load_iss"
+        android:text="@string/load_iss"
+        app:layout_constraintBottom_toTopOf="@+id/load_starlink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/load_enxaneta" />
+
+    <Button
+        android:id="@+id/load_starlink"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="120dp"
+        android:onClick="load_starlink"
+        android:text="@string/load_starlink"
+        app:layout_constraintBottom_toTopOf="@+id/load_iridium"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/load_iss" />
+
+    <Button
+        android:id="@+id/load_iridium"
+        android:layout_width="262sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:onClick="load_iridium"
+        android:text="@string/load_iridium"
+        app:layout_constraintBottom_toTopOf="@+id/load_tiangong"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/load_starlink" />
+
+    <Button
+        android:id="@+id/load_tiangong"
+        android:layout_width="262sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:onClick="load_tiangong"
+        android:text="@string/load_tiangong"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/load_iridium" />
+
+    <TextView
+        android:id="@+id/connection_status"
+        android:layout_width="98dp"
+        android:layout_height="89dp"
+        android:background="@drawable/ic_status_connection_red"
+        android:fontFamily="@font/roboto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
