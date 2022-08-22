@@ -98,6 +98,7 @@ More information about original project and deployer contact: https://github.com
 ## Arduino Controller App
 <div align="left">
     <img src="./Images/Grafico.png" width="200" height="200" alt="css-in-readme">
+    <img src="./Images/control.PNG" width="200" height="150" alt="css-in-readme">
 </div>
 This project consist of a remote controller for Liquid Galaxy. With this controller the user will be able to interact with Liquid Galaxy in a more dynamic way, using a remote control that can be connected to Liquid Galaxy using a USB cable or just connecting to the same internet network via WiFi. This project has two different controllers.
 
