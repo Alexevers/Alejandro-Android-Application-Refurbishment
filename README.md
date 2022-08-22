@@ -94,6 +94,36 @@ You can find Google Play Version here: [Orbit Satellite Visualizer](https://gith
 
 More information about original project and deployer contact: https://github.com/moreaf/OrbitSatelliteVisualizer
 
+
+## Arduino Controller App
+<div align="left">
+    <img src="./Images/Grafico.png" width="200" height="200" alt="css-in-readme">
+</div>
+This project consist of a remote controller for Liquid Galaxy. With this controller the user will be able to interact with Liquid Galaxy in a more dynamic way, using a remote control that can be connected to Liquid Galaxy using a USB cable or just connecting to the same internet network via WiFi. This project has two different controllers.
+
+This project also has an Android application that should be used to personalize navigation with the developed controllers. This application has a friendly and intuitive interface, with simple commands and connections for sending data to the controllers. Using this application the user will be able to:
+
+- Change the default navigation list of controls;
+- Create personalized navigation lists with your favorite places;
+- Change the tour time during the tour;
+- Start the connection to the WiFi network between the controls and the Liquid Galaxy and update the network data, if necessary;
+- Learn a little more about GSoC, the Liquid Galaxy community and the whole project and its collaborators on the information page.
+
+### Prerequisites
+- Liquid Galaxy (To be installed, go to following github repository:  [Liquid Galaxy](https://github.com/LiquidGalaxyLAB/liquid-galaxy))
+- Android phone or tablet
+- Arduino Controller
+
+### Extra information
+- Language code: Dart, C ++, Python
+- Technologies: ESP32 microntroller, Various sensors
+- Deployed with Flutter
+- IDE used: Android Studio
+
+You can find Google Play Version here: [Arduino Controller App](https://play.google.com/store/apps/details?id=com.galaxy.controllerapp&hl=es&gl=US)
+
+More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/Arduino-Controller
+
 # Partners
 <div align="center">
     <img src="./Images/logoTic.png" width="141" height="100" alt="css-in-readme">
