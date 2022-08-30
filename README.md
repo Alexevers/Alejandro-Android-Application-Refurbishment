@@ -37,4 +37,7 @@ With this application, it is intended to achieve the following objectives:
 - BBDD: Firebase
 - Google MAPS API
 
+App on Google Play Store: [HAPIS uploaded](https://play.google.com/store/apps/details?id=mihaela.claudia.diosan.gsoc2020_homelessaidpanoramicinteractivesystem&hl=es_419&gl=US) 
+
+
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/GSoC2020_HomelessAidPanoramicInteractiveSystem
