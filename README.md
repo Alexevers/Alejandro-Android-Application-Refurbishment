@@ -42,4 +42,9 @@ Gesture Controller uses one Android app to get the user camera pose inputs and t
 I could get an install version but it doesn't work. Here I give information about issues and how I fixed them:
 [Gesture Controller issues](https://docs.google.com/document/d/1qSUQTHxO0o3saJjRrHU0gRuxavHR5tvowl52eNscIYM/edit?usp=sharing)
 
+#### Imformation to you
+If you want to modify this app using Tensorflow lite. You have to be carefully, because Tflite plugin is deprecated. I give you a github link where you can migrate Tflite plugin manually: (Tflite migrated to Android V2)[https://github.com/shaqian/flutter_tflite/pull/230/files] 
+
+Instead of change the plugin manually, you can download mine here: 
+
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/Gesture-Controller
