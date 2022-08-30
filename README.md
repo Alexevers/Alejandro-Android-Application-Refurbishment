@@ -28,6 +28,5 @@ This project aims to use the Liquid Galaxy platform to display space related con
 - Language code: Java
 - IDE used: Android Studio
 
-You can find Google Play Version here: [Orbit Satellite Visualizer](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/Orbit-Satellite-Visualizer)
 
 More information about original project and deployer contact: https://github.com/moreaf/OrbitSatelliteVisualizer
