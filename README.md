@@ -24,6 +24,5 @@ The Reforestation Assistant & Simulator idea is to create an app to help on refo
 - Android phone or tablet
 - Liquid Galaxy device(__Optional__)
 
-You can find Google Play Version here: [RAS](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/RAS)
 
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/reforestation-assistant-simulator
