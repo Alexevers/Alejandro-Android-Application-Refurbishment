@@ -45,6 +45,6 @@ I could get an install version but it doesn't work. Here I give information abou
 #### Imformation to you
 If you want to modify this app using Tensorflow lite. You have to be carefully, because Tflite plugin is deprecated. I give you a github link where you can migrate Tflite plugin manually: (Tflite migrated to Android V2)[https://github.com/shaqian/flutter_tflite/pull/230/files] 
 
-Instead of change the plugin manually, you can download mine here: 
+Instead of change the plugin manually, you can download mine here:[Tflite 1.1.2](https://drive.google.com/file/d/1jzsISIUbbOBSuDL_mSPuKLQA2XswQqm-/view?usp=sharing) 
 
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/Gesture-Controller
