@@ -34,6 +34,8 @@ You can find Google Play Version here: [Image Satellite Visualizer](https://gith
 
 App on Google Play Store: [Image Satellite Visualizer uploaded](https://play.google.com/store/apps/details?id=com.activity.image_satellite_visualizer&hl=es_419&gl=US) 
 
+Doc with information about issues: [Image Satellite Visualizer issues](https://docs.google.com/document/d/1fstIQIhCp_mWrCyMncJQqXnhbPNA0kDahEPt6ftXPTc/edit?usp=sharing)
+
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/image-satellite-visualizer 
 
 ## Homeless Aid Panoramic Interactive System (HAPIS)
@@ -64,6 +66,8 @@ You can find Google Play Version here: [HAPIS](https://github.com/Alexevers/Alej
 
 App on Google Play Store: [HAPIS uploaded](https://play.google.com/store/apps/details?id=mihaela.claudia.diosan.gsoc2020_homelessaidpanoramicinteractivesystem&hl=es_419&gl=US) 
 
+Doc with information about issues: there ins't a doc, because main problems with this app were caused by API keys and minor problems with SDK versions
+
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/GSoC2020_HomelessAidPanoramicInteractiveSystem
 
 ## Reforestation Assistant Simulator
@@ -78,7 +82,9 @@ The Reforestation Assistant & Simulator idea is to create an app to help on refo
 
 You can find Google Play Version here: [RAS](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/RAS)
 
-App on Google Play Store: [RAS uploaded](https://play.google.com/store/apps/details?id=com.galaxy.ras&hl=es_419&gl=US) 
+App on Google Play Store: [RAS uploaded](https://play.google.com/store/apps/details?id=com.galaxy.ras&hl=es_419&gl=US)
+
+Doc with information about issues: [RAS issues](https://docs.google.com/document/d/1zLJIxkfdD1wFNtzuXi8hlCBdYOKFFuGbPQ2iyNf1yDI/edit?usp=sharing)
 
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/reforestation-assistant-simulator
 
@@ -99,6 +105,8 @@ This project aims to use the Liquid Galaxy platform to display space related con
 You can find Google Play Version here: [Orbit Satellite Visualizer](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/Orbit-Satellite-Visualizer)
 
 App on Google Play Store: [Orbit Satellite Visualizer uploaded](https://play.google.com/store/apps/details?id=com.galaxy.orbitsatellitevisualizer&hl=es_419&gl=US) 
+
+Doc with information about issues: there isn't a doc because this app had minor problems to be released.
 
 More information about original project and deployer contact: https://github.com/moreaf/OrbitSatelliteVisualizer
 
@@ -132,6 +140,8 @@ This project also has an Android application that should be used to personalize 
 You can find Google Play Version here: [Arduino Controller App](https://github.com/Alexevers/Alejandro-Android-Application-Refurbishment/tree/Arduino-Controller-App)
 
 App on Google Play Store: [Arduino Controller App uploaded](https://play.google.com/store/apps/details?id=com.galaxy.controllerapp&hl=es_419&gl=US) 
+
+Doc with information about issues: [Arduino Controller App issues](https://docs.google.com/document/d/1z9FDosh5Ctu1Prd5e9dIlgGHNBnFlUT4AOVUkGghhvY/edit?usp=sharing)
 
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/Arduino-Controller
 
