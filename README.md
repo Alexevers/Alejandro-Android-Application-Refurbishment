@@ -148,6 +148,11 @@ More information about original project and deployer contact: https://github.com
 
 ## Extra work
 ### Gesture Controller App
+<div align="left">
+    <img src="./Images/Gesture logo.png"  alt="css-in-readme">
+   
+</div>
+
 The project has the main goal to add new and more interactive ways to use Liquid Galaxy. First, like the project name suggests, the application let you use body poses to navigate with Google Earth with 9 different possible commands:
 - **Idle:** is the "normal pose" and also performs a stop command;
 - **Move:** move Google Earth to north, south, west or east;
@@ -169,6 +174,7 @@ Gesture Controller uses one Android app to get the user camera pose inputs and t
 I could get an install version but it doesn't work. Here I give information about issues and how I fixed them:
 [Gesture Controller issues](https://docs.google.com/document/d/1qSUQTHxO0o3saJjRrHU0gRuxavHR5tvowl52eNscIYM/edit?usp=sharing)
 
+More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/Gesture-Controller
 # Partners
 <div align="center">
     <img src="./Images/logoTic.png" width="141" height="100" alt="css-in-readme">
