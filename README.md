@@ -41,6 +41,5 @@ This project also has an Android application that should be used to personalize 
 - Deployed with Flutter
 - IDE used: Android Studio
 
-You can find Google Play Version here: [Arduino Controller App](https://play.google.com/store/apps/details?id=com.galaxy.controllerapp&hl=es&gl=US)
 
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/Arduino-Controller
