@@ -12,6 +12,8 @@ and during all these years, there have been many contributors who have developed
 However, some of these applications haven’t been released to the Play Store or App Gallery.
 The project's purpose is to update and upload these apps.
 
+This is doc with all information about my GSOC 2022: [Alejandro's GSOC2022](https://docs.google.com/document/d/1vohXlC---NlZp9eXzpVPDALtWo8SQG1J9i8WYeZXt9A/edit?usp=sharing)
+
 Here there are app sections with info:
 
 ## Image Satellite Visualizer
