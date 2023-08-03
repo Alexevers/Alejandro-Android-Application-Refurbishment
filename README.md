@@ -37,11 +37,13 @@ With this application, it is intended to achieve the following objectives:
 - BBDD: Firebase
 - Google MAPS API
 
-### How to delete your user account?
-This project hasn't got a delete method to delete the suer account through the app.
-So if you want to delete your account and personal information, you can contact to alexandroillan@gmail.com, and he will delete your personal information
-
 App on Google Play Store: [HAPIS uploaded](https://play.google.com/store/apps/details?id=mihaela.claudia.diosan.gsoc2020_homelessaidpanoramicinteractivesystem&hl=es_419&gl=US) 
 
 
 More information about original project and deployer contact: https://github.com/LiquidGalaxyLAB/GSoC2020_HomelessAidPanoramicInteractiveSystem
+
+
+### How to delete your user account?
+This project hasn't got a delete method to delete the suer account through the app.
+So if you want to delete your account and personal information, you can contact to alexandroillan@gmail.com, and he will delete your personal information
+
